@@ -1,0 +1,131 @@
+body {
+    background-color: #141414;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-color: #1f1f1f; 
+    display: flex;
+    flex-direction: column; /* Ensure that children stack vertically */
+    align-items: center; /* Center items horizontally */
+    border-radius: 8px;
+    width: 25vw;
+    height: 80vh;
+    padding: 8px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+img {
+    height: 120px;
+    width: 120px;
+    border-radius: 100%;
+    margin-bottom: 8px; /* Add some space below the image */
+}
+
+.Para {
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.Para span {
+    display: block;
+    margin-bottom: 4px; /* Space between span elements */
+}
+
+/* Style for the first span */
+.Para span:nth-child(1) {
+    color: white;
+    font-size: 40px; /* Adjust size as needed */
+    font-family: sans-serif;
+}
+
+/* Style for the second span */
+.Para span:nth-child(2) {
+    color: green;
+    font-size: 16px; /* Adjust size as needed */
+}
+
+.about {
+    color: white;
+    font-size: 15px;
+}
+.cont1{
+    width: 300px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #333; /* Background color */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 14px; /* Adjust font size */
+    margin: 0 auto; /* Center horizontally if needed */
+    margin-top: 20px;
+}
+
+.cont2{
+    width: 300px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #333; /* Background color */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 14px; /* Adjust font size */
+    margin: 0 auto; /* Center horizontally if needed */
+    margin-top: 20px;
+
+}
+
+.cont3{
+    width: 300px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #333; /* Background color */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 14px; /* Adjust font size */
+    margin: 0 auto; /* Center horizontally if needed */
+    margin-top: 20px;
+
+}
+
+.cont4{
+    width: 300px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #333; /* Background color */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 14px; /* Adjust font size */
+    margin: 0 auto; /* Center horizontally if needed */
+    margin-top: 20px;
+
+}
+
+.cont5{
+    width: 300px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #333; /* Background color */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 14px; /* Adjust font size */
+    margin: 0 auto; /* Center horizontally if needed */
+    margin-top: 20px;
+
+}
